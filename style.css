@@ -8,7 +8,8 @@ Main background - #D4A76A*/
     background-color: #D4A76A;
 }
 
-.header {
+header {
+    width: 100%
     color: #553100;
     background-color: #FFDBAA;
 }
@@ -16,4 +17,26 @@ Main background - #D4A76A*/
 button {
     background-color: #805215;
     color: white;
+}
+
+.card1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    width: 30%;
+    height: 125px;
+    background-color: white;
+    border: 1px solid black;
+    /* border-style: solid */
+}
+
+.card2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    width: 70%;
+    height: 125px;
+    background-color: white;
+    border: 1px solid black;
+    /* border-style: solid */
 }
