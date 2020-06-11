@@ -3,20 +3,39 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
+*{
+    margin: 0;
+}
 #mainPage {
     background-color: #D4A76A;
+    border: 1px solid black;
+    height: 100vh;
+    text-align:justify-all;
 }
 
 header {
     width: 100%
     color: #553100;
     background-color: #FFDBAA;
-}
 
+}
+#menu {
+  display: inline-block;
+    margin-left: auto;
+    height: 10%;
+
+}
+#menu button {
+    display: inline-block;
+    float: right;
+    margin-left: 30px;
+    border-left: 30%;
+}
 button {
+    display: inline-block;
     background-color: #805215;
     color: white;
+
 }
 
 .card1 {
@@ -26,8 +45,8 @@ button {
     width: 30%;
     height: 125px;
     background-color: white;
-    border: 1px solid black;
-    /* border-style: solid */
+    border: 1px solid;
+    box-shadow: 5px 10px 8px black;
 }
 
 .card2 {
@@ -38,5 +57,6 @@ button {
     height: 125px;
     background-color: white;
     border: 1px solid black;
+    box-shadow: 5px 10px 8px black;
     /* border-style: solid */
 }
