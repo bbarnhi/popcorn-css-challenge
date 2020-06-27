@@ -4,6 +4,7 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 *{
+    font-family: sans-serif;
     margin: 0;
 }
 #mainPage {
@@ -11,6 +12,7 @@ Main background - #D4A76A*/
     border: 1px solid black;
     height: 100vh;
     text-align:justify-all;
+    width = 100%
 }
 
 header {
@@ -30,19 +32,22 @@ header {
     float: right;
     margin-left: 30px;
     border-left: 30%;
+    width: auto
 }
 button {
     display: inline-block;
     background-color: #805215;
     color: white;
+    width: 80%;
 
 }
 
 .card1 {
     display: inline-block;
     text-align: center;
+    margin-left: 5%;
     margin-top: 10px;
-    width: 30%;
+    width: 25%;
     height: 125px;
     background-color: white;
     border: 1px solid;
@@ -53,6 +58,7 @@ button {
     display: inline-block;
     text-align: center;
     margin-top: 10px;
+    margin-left: 15%;
     width: 70%;
     height: 125px;
     background-color: white;
